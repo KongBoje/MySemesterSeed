@@ -17,7 +17,7 @@ public class UserFacade implements IUserFacade {
     Make sure your new facade implements IUserFacade and keeps the name UserFacade, and that your Entity User class implements 
     IUser interface, then security should work "out of the box" with users and roles stored in your database */
 
-    EntityManagerFactory emf = Persistence.createEntityManagerFactory("lam_seedMaven_war_1.0-SNAPSHOTPU");
+    EntityManagerFactory emf = Persistence.createEntityManagerFactory("com.mycompany_SemesterSeedMaven_war_1.0-SNAPSHOTPU");
 
     public UserFacade() {
                

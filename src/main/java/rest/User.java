@@ -13,6 +13,6 @@ public class User {
   @GET
   @Produces(MediaType.APPLICATION_JSON)
   public String getSomething(){
-    return "{\"message\" : \"REST call accesible by only authenticated USERS AND MEMBERS!\"}"; 
+    return "{\"message\" : \"REST call accesible by only authenticated USERS\"}"; 
   }
 }

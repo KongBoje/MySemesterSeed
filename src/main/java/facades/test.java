@@ -20,7 +20,7 @@ import security.PasswordStorage;
 public class test {
 
     public static void main(String[] args) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("lam_seedMaven_war_1.0-SNAPSHOTPU");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("com.mycompany_SemesterSeedMaven_war_1.0-SNAPSHOTPU");
         EntityManager em = emf.createEntityManager();
         UserFacade uf = new UserFacade();
         try {
