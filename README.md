@@ -3,3 +3,4 @@
 # SemesterSeed
 # SemesterSeedMaven
 # SemesterSeedMaven
+# MySemesterSeed
